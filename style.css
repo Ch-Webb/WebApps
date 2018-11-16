@@ -1,0 +1,13 @@
+h1 {
+	color: green;
+}
+
+h1:hover {
+	color:red;
+}
+
+img {
+	width = 150px;
+	transitions: all 0.2s linear;
+	box-shadow: 10px 10px 8px 10px #888888;
+}
