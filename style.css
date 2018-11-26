@@ -2,6 +2,9 @@ body {
 	background-color: white;
 }
 
+* {
+	box-sizing: border-box;
+}
 
 
 #python {
@@ -16,13 +19,14 @@ body {
 
 #nav {
 	list-style-type: none;
-	margin: 0;
+	margin: auto;
+	margin-left: -10px;
 	padding: 0;
 	overflow: hidden;
 	background-color: #636363;
 	position: fixed;
 	top: 0;
-	width: 100%;
+	width: 101%;
 }
 
 #nav2 {
@@ -40,9 +44,92 @@ body {
 }
 
 #nav3:hover {
-	background-color: #111;
+	background-color: #FCC233;
 }
 
 .active {
 	background-color: #376B9A;
+}
+
+
+.info {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+td {
+	text-align: center;
+}
+
+.column1 {
+	float: left;
+	width: 33.33%;
+	background-color: #376B9A;
+	padding: 10px;
+	height: 260px;
+	transition: all 0.2s linear;
+}
+
+.column2 {
+	float: left;
+	width: 33.33%;
+	background-color: #636363;
+	padding: 10px;
+	height: 260px;
+}
+
+.column3 {
+	float: left;
+	width: 33.33%;
+	background-color: #FCC233;
+	padding: 10px;
+	height: 260px;
+	transition: all 0.2s linear;
+}
+
+
+.container {
+	width: 80%;
+	margin: auto;
+	padding: 10px;
+}
+	
+
+.container:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+div h3 {
+	text-align: center;
+	font-family: "Lucida Console", monospace;
+	color: white;
+}
+
+.guido {
+	margin-left: 22%;
+	padding: 10px;
+	height: 230px;
+	transition: all 0.2s linear;
+}
+
+.guido:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div p {
+	font-family: "Lucida Console", monospace;
+	color: white;
+}
+
+.reflink {
+	font-family: "Lucida Console", monospace;
+	color: #376B9A;
+	transition: all 0.2s linear;
+}
+
+.reflink:hover {
+	color: #FCC233;
 }
